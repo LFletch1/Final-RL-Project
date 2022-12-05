@@ -7,6 +7,7 @@ def main():
 
     MODEL_TYPE = "A2C_noisy"
     STEPS = 10000
+    print("Training has started!")
     for i in range(1,51):
         model.learn(total_timesteps=STEPS, reset_num_timesteps=False)
         if i % 10 == 0:
