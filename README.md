@@ -4,6 +4,8 @@ The repository contains many files, many of which were used to collect data and 
 Directories:
 charts/ - Contains charts that were generated for the final report.
 data/ - Contains some data collected that was used for the final report and visualized with charts.
+models/ - Contains saved models that have been trained for various length times steps on different target missile types
+sprites/ - Contains small pictures used for the Pygame portion of the project
 scripts/ - Variety of scripts used to generate data and plots such as the bar chart, trajectories, and episode data.
 
 Files:
