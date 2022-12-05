@@ -1,0 +1,6 @@
+environment,successes
+static,96
+dynamic,69
+v_dynamic,14
+noisy,94
+all,8
