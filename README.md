@@ -9,8 +9,8 @@ sprites/ - Contains small pictures used for the Pygame portion of the project
 scripts/ - Variety of scripts used to generate data and plots such as the bar chart, trajectories, and episode data.  
   
 Files:  
-main.py - Run this with Python with Python2.10 and the modules downloaded in the requirements file. Will train an agent missile for 500,000 time steps with
-          a noisy target missile. Note the training process will take about 3 minutes to complete. A pygame window should pop up, but if it does not just look
+main.py - Run this with Python3.10 and the modules listed in the requirements file. Once executed it will train an agent missile for 500,000 time steps with
+          a noisy target missile. Note the training process will take about 4 minutes to complete. A pygame window should pop up, but if it does not just look
           for it on your monitor. Note, it works better with a Linux OS.  
   
 missile_defense_env.py - The custom environment built using OpenAI's Gym framework. Modeled the rocket dynamics as a particle with restricted turn capabilities
@@ -23,6 +23,6 @@ missile_defense_game.py - Simple game that mimmics the custom environment built.
                                 Up Arrow Key - Speed up missile  
                                 Down Arrow Key - Slow down missile  
   
-requirements.txt - All the packages needed to run the code in this repo.  
+requirements.txt - All the modules needed to run the code in this repo.  
   
   
